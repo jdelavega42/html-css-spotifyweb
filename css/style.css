@@ -1,0 +1,49 @@
+/* !RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* !COMMON */
+.mc-wrapper {
+    height: 100vh;
+}
+
+
+/* !MAIN */
+.main {
+    height: calc(100% - 100px);
+    display: flex;
+}
+
+/* @sidebar */
+.sidebar {
+    width: 200px;
+    height: 100%;
+    /* debug */
+    background-color: beige;
+}
+
+/* @content */
+.content {
+    width: calc(100% - 200px);
+    height: 100%;
+    /* debug */
+    background-color: lightgreen;
+}
+
+/* !FOOTER */
+.player {
+    height: 100px;
+    /* debug */
+    background-color: black;
+}
