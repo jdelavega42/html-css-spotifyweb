@@ -3,10 +3,10 @@
     /* !COMMON */
 
 
-    /* !MAIN */
+    /* !PRIMARY-SECTION */
 
 
-    /* !FOOTER */
+    /* !PLAYER-SECTION */
 }
 
 
@@ -15,21 +15,21 @@
     /* !COMMON */
 
 
-    /* !MAIN */
+    /* !PRIMARY-SECTION */
 
 
-    /* !FOOTER */
+    /* !PLAYER-SECTION */
 }
 
 
 @media screen and (max-width: 600px) {
-    
+
    /* !COMMON */
 
 
-    /* !MAIN */
+    /* !PRIMARY-SECTION */
 
 
-    /* !FOOTER */
+    /* !PLAYER-SECTION */
  
 }
