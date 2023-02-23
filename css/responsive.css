@@ -4,7 +4,9 @@
 
 
     /* !PRIMARY-SECTION */
-
+    .genre .col {
+        width: calc(100% / 4 - (3rem / 4));
+    }
 
     /* !PLAYER-SECTION */
 }
@@ -16,7 +18,9 @@
 
 
     /* !PRIMARY-SECTION */
-
+    .genre .col {
+        width: calc(100% / 2 - (1rem / 2));
+    }
 
     /* !PLAYER-SECTION */
 }
@@ -50,10 +54,6 @@
         text-align: center;
     }
 
-    .song-details {
-        transform: scale(.5);
-    }
-    }
     .info .icons > * {
         display: block;
         margin-bottom: .5rem;
