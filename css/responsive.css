@@ -25,6 +25,9 @@
 @media screen and (max-width: 600px) {
 
     /* !COMMON */
+    :root {
+        --sidebar-width: 100px;
+    }
 
     /* !PRIMARY-SECTION */
     /* @sidebar */
@@ -46,15 +49,16 @@
     .install {
         text-align: center;
     }
-    
-    .sidebar {
-        width: 100px;
+
+    .song-details {
+        transform: scale(.5);
+    }
+    }
+    .info .icons > * {
+        display: block;
+        margin-bottom: .5rem;
     }
 
-
-    .content {
-        width: calc(100% - 100px);
-    }
     /* !PLAYER-SECTION */
  
 }

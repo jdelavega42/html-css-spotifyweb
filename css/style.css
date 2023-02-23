@@ -18,7 +18,7 @@ li {
 
 :root {
     --bg-clr: #141922;
-    --player-height: 90px;
+    --player-height: 100px;
     --sidebar-width: 250px;
     --text-clr: #A3A3A3;
 }
@@ -27,7 +27,6 @@ li {
 body {
     background-color: var(--bg-clr);
     font-family: 'Montserrat', sans-serif;
-    /* debug */
     color: var(--text-clr);
 }
 
@@ -113,7 +112,7 @@ li > * ,
 
 .personal {
     position: absolute;
-    bottom: -1px;
+    bottom: 0px;
     left: 1rem;
     height: 100px;
     padding: 1rem;
@@ -132,10 +131,10 @@ li > * ,
 .header {
     height: var(--player-height);
     background-color: rgba(0, 0, 0, .5);
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
-    width: 100%;
+    width: calc(100% - var(--sidebar-width));
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -159,32 +158,36 @@ li > * ,
 }
 
 .player {
-    width: calc(100% - 400px);
+    width: calc(100% - 300px);
     /* debug */
     height: 100%;
     border: 1px solid red;
 }
 
 .side {
-    display: flex;
+    display: flex;  
     justify-content: space-between;
     align-items: center;
-    max-width: 200px;
+    max-width: 150px;
+    padding: 3px;
     /* debug */
     height: 100%;
     border: 1px solid white;
 }
 
-.song {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: .5rem;
-}
-.song-preview {
-    width: 30%;
-}
 
 .song-details p {
     color: var(--text-clr);
+}
+
+.side i {
+    display: inline-block;
+}
+.volume-bar {
+    width: 50%;
+}
+
+.max-volume{
+    height: 5px;
+    background-color: var(--text-clr);
 }
