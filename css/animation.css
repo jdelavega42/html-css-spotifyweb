@@ -1,0 +1,55 @@
+/* !PRIMARY-SECTION */
+
+/* #@common */
+.sidebar li:hover ,
+.install:hover ,
+.navbar .col:hover {
+    color: white;
+    font-weight: bold;
+}
+
+/* #sidebar */
+
+/* #header */
+.header .button:hover {
+    scale: 1.1;
+}
+
+/* #main */
+.cover:hover img{
+    opacity: 0.5;
+}
+
+.cover:hover i {
+    display: inline-block;
+}
+
+/* !PLAYER-SECTION */
+.name:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.bottom-section i:hover{
+    color: white;
+}
+
+.top i:nth-of-type(3):hover {
+    transform: scale(1.25);
+}
+
+.max-audio:hover .current-audio{
+    background-color: limegreen;
+}
+
+.max-audio:hover i{
+    display: inline;
+}
+
+.max-volume:hover .current-volume{
+    background-color: limegreen;
+}
+
+.max-volume:hover i{
+    display: inline;
+}
