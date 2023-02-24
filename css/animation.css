@@ -1,7 +1,9 @@
 /* !PRIMARY-SECTION */
 
 /* #@common */
-.sidebar li:hover ,
+.menu li:hover ,
+.playlist > li:nth-of-type(2),
+.playlist ul > *:hover,
 .install:hover ,
 .navbar .col:hover {
     color: white;
