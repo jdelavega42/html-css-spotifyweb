@@ -119,6 +119,8 @@ li > * ,
 
 .user {
     margin-top: .5rem;
+    display: flex;
+    align-items: center;
 }
 
 .user .circle {
