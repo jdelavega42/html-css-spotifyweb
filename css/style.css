@@ -78,13 +78,16 @@ li > * ,
     padding: 1rem 1rem;
     display: flex;
     flex-flow: column;
-    /* overflow-y: auto; */
 }
 
 .sidebar > * ,
 .menu > *,
 .playlist > * {
     padding: .5rem;
+}
+
+.playlist {
+    overflow-y: hidden;
 }
 
 .sidebar .active {
@@ -112,6 +115,10 @@ li > * ,
 
 .scroll {
     overflow-y: auto;
+}
+
+.scroll > * {
+    margin: .5rem 0;
 }
 .install {
     margin-bottom: .5rem;
